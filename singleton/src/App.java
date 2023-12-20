@@ -2,6 +2,9 @@ import com.example.SingletonEager;
 import com.example.SingletonLazy;
 import com.example.SingletonLazyHolder;
 
+/**
+ * Singleton : Padrão de projeto criacional
+ */
 public class App {
     public static void main(String[] args) throws Exception {
         SingletonLazy lazy = SingletonLazy.getInstancia();
